@@ -1,2 +1,9 @@
 Spark and Scala code for Banking Data Analysis
 
+Just pull the repository and run
+
+
+> sbt run 
+
+
+
