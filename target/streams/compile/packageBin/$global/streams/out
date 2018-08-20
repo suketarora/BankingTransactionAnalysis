@@ -2,12 +2,16 @@
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$$anonfun$4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/suket/scala/lessons/transaction_analysis/target/scala-2.11/classes/Main$$anonfun$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Transaction Sample data-1.csv[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/suket/scala/lessons/transaction_analysis/target/scala-2.11/classes/Transaction Sample data-1.csv[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$$anonfun$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/suket/scala/lessons/transaction_analysis/target/scala-2.11/classes/Main$$anonfun$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/suket/scala/lessons/transaction_analysis/target/scala-2.11/classes/Main.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$$anonfun$13$$anonfun$apply$4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/suket/scala/lessons/transaction_analysis/target/scala-2.11/classes/Main$$anonfun$13$$anonfun$apply$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Transaction Sample data-2.xlsx[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/suket/scala/lessons/transaction_analysis/target/scala-2.11/classes/Transaction Sample data-2.xlsx[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$$anonfun$11.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/suket/scala/lessons/transaction_analysis/target/scala-2.11/classes/Main$$anonfun$11.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$$anonfun$14.class[0m
@@ -16,6 +20,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/suket/scala/lessons/transaction_analysis/target/scala-2.11/classes/Main$$anonfun$16.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$Transaction.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/suket/scala/lessons/transaction_analysis/target/scala-2.11/classes/Main$Transaction.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Transaction Sample data-1.xlsm[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/suket/scala/lessons/transaction_analysis/target/scala-2.11/classes/Transaction Sample data-1.xlsm[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$$anonfun$8.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/suket/scala/lessons/transaction_analysis/target/scala-2.11/classes/Main$$anonfun$8.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$$anonfun$7.class[0m
@@ -56,6 +62,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/suket/scala/lessons/transaction_analysis/target/scala-2.11/classes/Main$$anonfun$16$$anonfun$apply$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$$anonfun$13.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/suket/scala/lessons/transaction_analysis/target/scala-2.11/classes/Main$$anonfun$13.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Transaction Sample data-2.csv[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/suket/scala/lessons/transaction_analysis/target/scala-2.11/classes/Transaction Sample data-2.csv[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$$anonfun$5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/suket/scala/lessons/transaction_analysis/target/scala-2.11/classes/Main$$anonfun$5.class[0m
 [0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

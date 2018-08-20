@@ -1,2 +1,5 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/suket/scala/lessons/transaction_analysis/src/main/resources/Transaction Sample data-2.xlsx,/home/suket/scala/lessons/transaction_analysis/target/scala-2.11/classes/Transaction Sample data-2.xlsx)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/suket/scala/lessons/transaction_analysis/src/main/resources/Transaction Sample data-1.csv,/home/suket/scala/lessons/transaction_analysis/target/scala-2.11/classes/Transaction Sample data-1.csv)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/suket/scala/lessons/transaction_analysis/src/main/resources/Transaction Sample data-2.csv,/home/suket/scala/lessons/transaction_analysis/target/scala-2.11/classes/Transaction Sample data-2.csv)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/suket/scala/lessons/transaction_analysis/src/main/resources/Transaction Sample data-1.xlsm,/home/suket/scala/lessons/transaction_analysis/target/scala-2.11/classes/Transaction Sample data-1.xlsm)[0m

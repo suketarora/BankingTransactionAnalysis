@@ -2,14 +2,24 @@ import org.joda.time.format.DateTimeFormat
 import org.joda.time.LocalDate
 import org.apache.spark._
 import scala.math.BigDecimal
+import scala.io.Source
 
 object Main extends App {
 
  override def main(arg: Array[String]): Unit = {
    var sparkConf = new SparkConf().setMaster("local").setAppName("Transaction")
    var sc = new SparkContext(sparkConf)
-   val firstRddRaw = sc.textFile("file:///home/suket/Documents/Transaction Sample data-1.csv")
-   val secondRddRaw = sc.textFile("file:///home/suket/Documents/Transaction Sample data-2.csv")
+
+   val resource = getClass.getResourceAsStream("/Transaction Sample data-1.csv")
+    if (resource == null) sys.error("Please download the banking dataset 1")
+     val firstRddRaw =  sc.parallelize(Source.fromInputStream(resource).getLines().toList)
+
+    val resource2 = getClass.getResourceAsStream("/Transaction Sample data-2.csv")
+    if (resource2 == null) sys.error("Please download the banking dataset 2")
+     val secondRddRaw =  sc.parallelize(Source.fromInputStream(resource2).getLines().toList)
+   
+   // val firstRddRaw = sc.textFile("file:///home/suket/Documents/Transaction Sample data-1.csv")
+   // val secondRddRaw = sc.textFile("file:///home/suket/Documents/Transaction Sample data-2.csv")
    val firstRdd = firstRddRaw.filter(x => !x.contains("Timestamp"))
    val secondRdd = secondRddRaw.filter(x => !x.contains("Timestamp"))
    val firstTransactionRdd = firstRdd.map(parse1)
