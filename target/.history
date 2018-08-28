@@ -8,3 +8,5 @@ exit
 exit
 run
 package
+compile
+run
